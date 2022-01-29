@@ -9,7 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Docker</p>
+        <p>{`Environment 1 ${process.env.REACT_APP_NAME}`}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
